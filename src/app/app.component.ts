@@ -24,4 +24,9 @@ export class AppComponent implements OnInit{
     console.log(form);
   }
 
+  validate={
+    "textStyle": true,
+    "textColor": true
+  }
+
 }

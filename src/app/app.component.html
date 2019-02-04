@@ -17,7 +17,7 @@
   </div>
   <div [ngClass]="'error'" *ngIf= "f.invalid && (f.touched || f.dirty)">
       <p *ngIf="email.errors?.required" >username is required</p>
-      <p *ngIf="email.errors?.minlength">username should be og 6 </p>
+      <p *ngIf="email.errors?.minlength">username should be of 6 </p>
   </div>
   
   <br>
@@ -36,7 +36,7 @@
        />
     </div>
   </div>
-  <div [ngClass]="'error'" *ngIf= "f.invalid && (f.touched || f.dirty)">
+  <div [ngClass]="validate" *ngIf= "f.invalid && (f.touched || f.dirty)">
       <p *ngIf="pwd.errors.required" >password is required</p>
       <p *ngIf="pwd.errors.minlength">password should be of 6 </p>
   </div>

@@ -1,3 +1,11 @@
 .error{
     color: red;
 }
+
+.textStyle{
+    font-style: italic;
+}
+
+.textColor{
+    color: saddlebrown;
+}
